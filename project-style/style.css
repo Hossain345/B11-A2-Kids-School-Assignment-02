@@ -128,4 +128,173 @@
     object-fit: cover;
 }
 
-/* card section standard curriculum */
+/* card section standard curriculum                                             */
+
+/* Main Section Styles */
+.section-title {
+    text-align: center;
+    font-size: 46px;
+    color: #000000;
+    margin-top: 60px;
+    font-weight: 700;
+}
+/* Cards Container */
+.cards-container {
+    display: flex;
+    gap: 28px;
+    
+}
+/* all card styles and card1 ..*/
+.card1 {
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-height: 500px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    padding: 40px;
+}
+.card1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+.card1-title {
+    font-size: 19px;
+    font-weight: 700;
+    color: #333;
+}
+.card1-description {
+    color: #666;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+/* Read More Links */
+.read-more1 {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    color: #64C8FF;
+    text-decoration: none;
+}
+.read-more1:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* card2 */
+.card2 {
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-height: 500px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    padding: 40px;
+}
+.card2:hover {
+    transform: translateY(-5px);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+.card2-title {
+    font-size: 21px;
+    font-weight: 700;
+    color: #333;
+}
+.card2-description {
+    color: #666;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+/* Read More Links */
+.read-more2 {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    color: #F0AA00;
+    text-decoration: none;
+}
+.read-more2:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* card3 */
+.card3 {
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-height: 500px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    padding: 40px;
+}
+.card3:hover {
+    transform: translateY(-5px);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+.card3-title {
+    font-size: 21px;
+    font-weight: 700;
+    color: #333;
+}
+.card3-description {
+    color: #666;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+/* Read More Links */
+.read-more3 {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    color: #8700FF;
+    text-decoration: none;
+}
+.read-more3:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* Navigation Arrows */
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 48px;
+}
+.nav-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: #FEA301;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.nav-arrow:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.nav-arrow svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Our stories section                                    */
