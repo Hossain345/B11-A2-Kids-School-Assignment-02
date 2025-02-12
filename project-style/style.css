@@ -1,0 +1,131 @@
+/* font */
+
+.quicksand-primary-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    }
+
+/* full body area size*/
+.area-size {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px 0px 100px;
+}
+
+/* Logo and brand name section */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo img {
+    width: 40px;
+}
+.brand-name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #111111;
+}
+
+/* Navigation Menu Styles */
+.nav-menu {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.nav-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+.nav-link:hover {
+    transform: scale(1.1);
+}
+.color1{
+    color: #FEA301;
+}
+.color2{
+    color: #01ACFD;
+}
+.color3{
+    color: #05D4DF;
+}
+.color4{
+    color: #5D58EF;
+}
+
+
+/* Contact Button Styles and hamburger*/
+.contact-btn {
+    background: #FEA301;
+    color: #FFFFFF;
+    padding: 10px 60px 10px 60px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.contact-btn:hover {
+    cursor: pointer;
+}
+.hamburger{
+    display: none;
+}
+
+
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Hero Content Styles */
+.hero-content {
+    max-width: 500px;
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 1.5rem;
+}
+.highlight-orange {
+    color: #FEA301;
+}
+.highlight-blue {
+    color: #01ACFD;
+}
+.hero-description {
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 24px;
+}
+
+/* Enroll Button Styles */
+.enroll-btn {
+    background:black;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 47px 10px 47px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+.enroll-btn:hover {
+    cursor: pointer;
+}
+
+/* Hero Image Styles */
+.hero-image {
+    display: flex;
+    align-content: space-between;
+}
+.hero-image img {
+    width: 100%;
+    max-width: 450px;
+    object-fit: cover;
+}
+
+/* card section standard curriculum */
